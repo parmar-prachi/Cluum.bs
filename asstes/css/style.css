@@ -99,3 +99,91 @@ ul {
 .offer:hover .circle{
     background-color: var(--bs-primary);
 }
+.line2::before{
+    position:absolute;
+    content:'';
+    top:5%;
+    left:25%;
+    width:1px;
+    height:90%;
+    background-color:#e0dddd;
+}
+.bt{
+    width:65px;
+    height:46px;
+    border:1px solid #edecec;
+    border-radius:5px;
+}
+.bt i{
+    color: #7f7e7e;
+}
+.nw:hover .bt , .bt:hover{
+    background-color: var(--bs-primary);
+}
+.nw:hover .bt i , .bt:hover .bt i{
+    color:white;
+}
+.lin::before{
+    position:absolute;
+    content:'';
+    top:87%;
+    left:80px;
+    width:1px;
+    height:110px;
+    background-color:#dad8d8;
+}
+.lin2::before{
+    position:absolute;
+    content:'';
+    top:87%;
+    left:38%;
+    width:1px;
+    height:110px;
+    background-color:#dad8d8;
+}
+.lin3::before{
+    position:absolute;
+    content:'';
+    top:87%;
+    left:72%;
+    width:1px;
+    height:110px;
+    background-color:#dad8d8;
+}
+.ln::after{
+    position:absolute;
+    content:'';
+    top:25%;
+    left:18%;
+    width:1px;
+    height:80%;
+    background-color:#dad8d8;
+}
+.ln-1::after{
+    position:absolute;
+    content:'';
+    top:25%;
+    left:38%;
+    width:1px;
+    height:80%;
+    background-color:#dad8d8;
+}
+.ln-2::after{
+    position:absolute;
+    content:'';
+    top:25%;
+    left:59%;
+    width:1px;
+    height:80%;
+    background-color:#dad8d8;
+}
+.ln-3::after{
+    position:absolute;
+    content:'';
+    top:25%;
+    left:78%;
+    width:1px;
+    height:80%;
+    background-color:#dad8d8;
+}
+
