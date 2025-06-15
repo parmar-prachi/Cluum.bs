@@ -22,7 +22,7 @@ ul {
 }
 /* topbar */
 .top-bar ul li i:hover,
-.pro a:hover {
+.pro a:hover{
   color: var(--bs-primary);
 }
 /* navbar */
@@ -262,4 +262,94 @@ ul {
 }
 .menus ul li a:hover {
   color: var(--bs-primary);
+}
+/* about page */
+.banner-hover .banner-img img , .about-team-img .ban-img img{
+  overflow: hidden;
+  transition:all 0.3s ease-in;
+  object-fit: cover;
+}
+.banner-img:hover img{
+  transform: scale(1.05);
+}
+.about-team-img:hover img{
+  transform: scale(1.05);
+}
+/* servies */
+.icon-circle{
+  display: inline;
+  width:80px;
+  height:80px;
+  background-color:#eff6ee;
+  border-radius:50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+/* news letter */
+.news-form input{
+  border-radius:0;
+}
+.news-wrap button{
+  background-color:#42872C;
+  color: white;
+  border-radius:0;
+  padding:10px 75px;
+  border: none;
+  font-weight:700;
+  cursor: pointer;
+  transition: all 0.3s ease-in; 
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+.news-wrap button:hover{
+  background-color:#333333;
+  color:white;
+}
+/* footer */
+footer .information ul li , footer .links ul li , footer .policy ul li , footer .contact ul li{
+  padding-top:14px;
+}
+footer .information ul li a , footer .links ul li a , footer .policy ul li a ,
+footer .contact ul li a{
+  color:#6c757d;
+}
+footer .information ul li a:hover , footer .links ul li a:hover , footer .policy ul li a:hover,
+footer .contact ul li a:hover{
+  color:#42872C;
+}
+/* icons */
+.soc-icons ul {
+  margin-top: 20px;
+  display: flex;
+  justify-content: start;
+  padding: 0;
+}
+.soc-icons li {
+  margin: 0 8px;
+}
+.soc-icons a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width:40px;
+  height:40px;
+  border-radius: 50%;
+  border: 0.5px solid #c9c9c9;
+  text-decoration: none;
+  font-size: 20px;
+}
+.soc-icons i {
+  font-size: 20px;
+  color: #6c757d;
+  font-weight: var(--fw);
+  line-height: 20 px;
+  text-align: left;
+  cursor: pointer;
+}
+.soc-icons i:hover {
+  color: #42872C;
+  font-size:22px;
 }
